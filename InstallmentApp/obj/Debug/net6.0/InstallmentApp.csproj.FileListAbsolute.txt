@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\obj\Debug\net6.0\InstallmentApp.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\obj\Debug\net6.0\InstallmentApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\obj\Debug\net6.0\InstallmentApp.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\obj\Debug\net6.0\InstallmentApp.AssemblyInfo.cs
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\obj\Debug\net6.0\InstallmentApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\bin\Debug\net6.0\InstallmentApp.exe
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\bin\Debug\net6.0\InstallmentApp.deps.json
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\bin\Debug\net6.0\InstallmentApp.runtimeconfig.json
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\bin\Debug\net6.0\InstallmentApp.dll
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\bin\Debug\net6.0\InstallmentApp.pdb
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\obj\Debug\net6.0\InstallmentApp.dll
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\obj\Debug\net6.0\refint\InstallmentApp.dll
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\obj\Debug\net6.0\InstallmentApp.pdb
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\obj\Debug\net6.0\InstallmentApp.genruntimeconfig.cache
+C:\Users\HP\Desktop\NewTasks\InstallmentApp\InstallmentApp\obj\Debug\net6.0\ref\InstallmentApp.dll
