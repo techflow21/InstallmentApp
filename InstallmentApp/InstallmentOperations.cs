@@ -13,7 +13,7 @@
         {
             Console.Clear();
             decimal dailyPercentage = (decimal)(10d/ 100);
-            paymentAmount = 50000;
+            paymentAmount = 500000;
             cashType = '$';
             todaysDate = DateTime.Now;
 
@@ -32,7 +32,7 @@
         {
             char cashType = '$';
             decimal weeklyPercentage = (decimal)(40d / 100);
-            paymentAmount = 50000;
+            paymentAmount = 500000;
             todaysDate = DateTime.Now;
 
             decimal installment = totalAmount;
@@ -50,7 +50,7 @@
         {
             char cashType = '$';
             decimal weeklyPercentage = (decimal)(70d / 100);
-            paymentAmount = 50000;
+            paymentAmount = 500000;
             todaysDate = DateTime.Now;
 
             decimal installment = totalAmount;
@@ -68,7 +68,7 @@
         {
             char cashType = '$';
             decimal weeklyPercentage = (decimal)(100d / 100);
-            paymentAmount = 50000;
+            paymentAmount = 500000;
             todaysDate = DateTime.Now;
 
             decimal installment = totalAmount;
@@ -85,7 +85,7 @@
         {
             char cashType = '$';
             decimal weeklyPercentage = (decimal)(200d / 100);
-            paymentAmount = 50000;
+            paymentAmount = 500000;
             todaysDate = DateTime.Now;
 
             decimal installment = totalAmount;
@@ -102,7 +102,7 @@
         {
             char cashType = '$';
             decimal weeklyPercentage = (decimal)(300d / 100);
-            paymentAmount = 50000;
+            paymentAmount = 500000;
             todaysDate = DateTime.Now;
 
             decimal installment = totalAmount;
