@@ -23,7 +23,7 @@
             if (ProductEntry.Trim() == "")
             {
                 Console.Clear();
-                Console.WriteLine("Invalid Product name entered, try again!");
+                Console.WriteLine("Invalid Product name, try again!");
                 Product();
             }
 
