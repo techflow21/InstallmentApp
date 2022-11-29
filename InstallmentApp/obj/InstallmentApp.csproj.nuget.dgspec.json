@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\NewTasks\\InstallmentApp\\InstallmentApp\\InstallmentApp.csproj": {}
+    "C:\\Users\\HP\\Desktop\\FreshStuffs\\InstallmentApp\\InstallmentApp\\InstallmentApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\NewTasks\\InstallmentApp\\InstallmentApp\\InstallmentApp.csproj": {
+    "C:\\Users\\HP\\Desktop\\FreshStuffs\\InstallmentApp\\InstallmentApp\\InstallmentApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\NewTasks\\InstallmentApp\\InstallmentApp\\InstallmentApp.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\FreshStuffs\\InstallmentApp\\InstallmentApp\\InstallmentApp.csproj",
         "projectName": "InstallmentApp",
-        "projectPath": "C:\\Users\\HP\\Desktop\\NewTasks\\InstallmentApp\\InstallmentApp\\InstallmentApp.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\FreshStuffs\\InstallmentApp\\InstallmentApp\\InstallmentApp.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\NewTasks\\InstallmentApp\\InstallmentApp\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\FreshStuffs\\InstallmentApp\\InstallmentApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

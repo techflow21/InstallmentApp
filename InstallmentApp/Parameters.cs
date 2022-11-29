@@ -1,13 +1,19 @@
-﻿namespace InstallmentApp
+﻿using System.Text.RegularExpressions;
+
+namespace InstallmentApp
 {
     static class Parameters
     {
         public static string Username()
         {
             Console.Write("Enter your name: ");
-            string? userName = Console.ReadLine();
+            string userName = Console.ReadLine();
 
-            if (userName.Trim() == "")
+            string pattern = @"^[a-zA-Z]{2,25}$";
+
+            Regex regex = new Regex(pattern);
+
+            if (! regex.IsMatch(userName))
             {
                 Console.Clear();
                 Console.WriteLine("Invalid user name, try again!");
@@ -18,31 +24,47 @@
         public static string Product()
         {
             Console.Write("Enter the product name: ");
-            string? ProductEntry = Console.ReadLine();
+            string productEntry = Console.ReadLine();
 
-            if (ProductEntry.Trim() == "")
+            string pattern = @"^[a-zA-Z]{2,25}$";
+
+            Regex regex = new Regex(pattern);
+
+            if (!regex.IsMatch(productEntry))
+
             {
                 Console.Clear();
                 Console.WriteLine("Invalid Product name, try again!");
                 Product();
             }
 
-            return ProductEntry;
+            return productEntry;
         }
         public static decimal Amount()
         {
             Console.Write("Enter amount you want to pay now: ");
-            var fee = Console.ReadLine();
+            string currentPay = Console.ReadLine();
 
-            bool IsValid = decimal.TryParse(fee, out decimal toPayAmount);
-            if (!IsValid)
+            //bool IsValid = decimal.TryParse(currentPay, out decimal toPayAmount);
+            string pattern = @"^[0-9]$";
+
+            Regex regex = new Regex(pattern);
+
+            if (currentPay.Trim() == "" /*||!regex.IsMatch(currentPay)*/)
+            {
+                Console.Clear();
+                Console.WriteLine("Invalid amount entered, try again!");
+                Amount();
+            }
+            else if (Convert.ToInt32(currentPay) < 0 || Convert.ToInt32(currentPay) > 500000)
             {
                 Console.Clear();
                 Console.WriteLine("Invalid amount entered, try again!");
                 Amount();
             }
 
-            return toPayAmount;
+            return Convert.ToDecimal(currentPay);
+
         }
     }
 }
