@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Buhari Installment App");
+        Console.WriteLine("Welcome to Buhari Installment App");
 
         bool isActive = true;
 
