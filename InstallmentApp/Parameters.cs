@@ -44,8 +44,11 @@ namespace InstallmentApp
         {
             Console.Write("Enter amount you want to pay now: ");
             string currentPay = Console.ReadLine();
+            
+            pattern = @"^[a-zA-Z]$";
+            Regex regex = new(pattern);
 
-            if (currentPay.Trim() == "" || string.IsNullOrEmpty(currentPay))
+            if (regex.IsMatch(currentPay) || string.IsNullOrEmpty(currentPay))
             {
                 Console.Clear();
                 Console.WriteLine("Invalid amount entered, try again!");
