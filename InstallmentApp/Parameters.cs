@@ -45,24 +45,37 @@ namespace InstallmentApp
             Console.Write("Enter amount you want to pay now: ");
             string currentPay = Console.ReadLine();
             
-            pattern = @"^[a-zA-Z]$";
+            string pattern = @"^[a-zA-Z]$";
             Regex regex = new(pattern);
 
-            if (regex.IsMatch(currentPay) || string.IsNullOrEmpty(currentPay))
+            try
             {
-                Console.Clear();
+                if (regex.IsMatch(currentPay) || string.IsNullOrEmpty(currentPay))
+                {
+                    Console.Clear();
+                    Console.WriteLine("Invalid amount entered, try again!");
+                    Amount();
+                }
+                else if (Convert.ToDecimal(currentPay) < 0 || Convert.ToDecimal(currentPay) > 500000)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Invalid amount entered, you can't pay negatve value or pay higher than maximum ($500000), try again!");
+                    Amount();
+                } 
+            }
+            catch(FormatException)
+            {
                 Console.WriteLine("Invalid amount entered, try again!");
                 Amount();
             }
-            else if (Convert.ToInt32(currentPay) < 0 || Convert.ToInt32(currentPay) > 500000)
+
+            catch (OverflowException)
             {
-                Console.Clear();
-                Console.WriteLine("Invalid amount entered, you can't pay negatve value or pay higher than maximum ($500000), try again!");
+                Console.WriteLine("Invalid amount entered, try again!");
                 Amount();
             }
 
             return Convert.ToDecimal(currentPay);
-
         }
     }
 }
